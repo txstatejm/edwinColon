@@ -1,0 +1,130 @@
+body {
+    background-color:rgb(212, 228, 217);
+}
+
+header {
+   display: flex;
+   text-align: center;
+   justify-content: center;
+}
+
+a:link,a:visited {
+    color: #2d2d2f;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly; 
+    padding: 2px;
+}
+
+a:hover {
+    color: #ffffff;
+    background-color: #4e7e5c;
+    text-decoration: none;
+    display: flex;
+    justify-content: center; 
+    padding: 2px;
+}
+
+#images {
+    display: flex; 
+    justify-content: center; 
+}
+
+#images img {
+    margin: 10px; 
+    border: solid 1px black;
+
+}
+
+#description {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#cs-form {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cs-content {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cs-topper {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.cs-title {
+    font-size: 18px;
+    color: black;
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
+    border-color: #4e7e5c;
+    outline: none;
+}
+
+.cs-label-message textarea {
+    height: 100px;
+    resize: none;
+}
+
+.cs-button-solid {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4e7e5c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cs-button-solid:hover {
+    background-color: black;
+}
+
+@media (max-width: 600px) {
+    #cs-form {
+        padding: 15px;
+    }
+
+    .cs-title {
+        font-size: 16px;
+    }
+
+    .cs-button-solid {
+        padding: 12px;
+    }
+}
